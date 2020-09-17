@@ -24,11 +24,11 @@ function switchPlayer(player){
 document.getElementById("message").textContent = "X's turn";
 for(var i=1;i<=9;i++){
 	document.getElementById(i).addEventListener("click",function check(){
-		if(player===1 && gameOver===false && this.textContent===""){
+		if(player===1 && isGameOver(this.id)===false && this.textContent===""){
 			this.textContent = "X";
 			this.removeEventListener("click",check);
 		}
-		else if(player===2 && gameOver===false && this.textContent===""){
+		else if(player===2 && isGameOver(this.id)===false && this.textContent===""){
 			this.textContent = "O";
 			this.removeEventListener("click",check);
 		}
