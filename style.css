@@ -4,10 +4,10 @@ body{
 	margin:0;
 }
 .container{
-	width:400px;
-	height:400px;
-	max-height: 400px;
-	max-width: 400px;
+	width:401px;
+	height:401px;
+	max-height: 401px;
+	max-width: 401px;
 	margin:0 auto;
 }
 .row{
@@ -28,10 +28,10 @@ body{
 	background-color: #f7bc74;
 }
 .border-b{
-	border-bottom: 5px solid white;
+	border-bottom: 6px solid white;
 }
 .border-r{
-	border-right: 5px solid white;
+	border-right: 6px solid white;
 }
 h1{
 	background-color: #b86807;
@@ -46,7 +46,7 @@ h1{
 	border-bottom:2px solid black;
 }
 #messageDisp{
-	height:40px;
+	height:41px;
 	color:white;
 	text-align: center;
 	margin-bottom: 60px;
